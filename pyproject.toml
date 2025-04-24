@@ -1,12 +1,11 @@
-[project]
+[tool.poetry]
 name = "secure-data"
 version = "0.1.0"
 description = "A secure data handling application"
 readme = "README.md"
-requires-python = ">=3.11"
+package-mode = false  # Disable package mode
 
 [tool.poetry.dependencies]
-python = "^3.11"  
+python = "^3.11"
 streamlit = "^1.0.0"
 cryptography = "^3.0"
-
